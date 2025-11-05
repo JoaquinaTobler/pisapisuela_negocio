@@ -1,0 +1,210 @@
+{
+  "clientes": [
+    {
+      "id": "cli002",
+      "nombre": "Mateo",
+      "apellido": "González",
+      "celular": "1134567891"
+    },
+    {
+      "id": "cli003",
+      "nombre": "Sofía",
+      "apellido": "López",
+      "celular": "1145678901"
+    },
+    {
+      "id": "cli004",
+      "nombre": "Joaquina",
+      "apellido": "Reinoso",
+      "celular": "22358961445"
+    },
+    {
+      "id": "cli005",
+      "nombre": "Rosario",
+      "apellido": "Reinoso",
+      "celular": "22358966547"
+    },
+    {
+      "id": "cli006",
+      "nombre": "Tomas",
+      "apellido": "Roberto",
+      "celular": "22358964556"
+    },
+    {
+      "id": "cli007",
+      "nombre": "Test",
+      "apellido": "Test",
+      "celular": "2238574112"
+    }
+  ],
+  "pedidos": [
+    {
+      "id": "ped001",
+      "cliente": "cli007",
+      "fechaPedido": "2025-10-12",
+      "senia": 50,
+      "estado": "Entregado",
+      "productos": [
+        {
+          "productoId": "prod001",
+          "cantidad": 1
+        }
+      ]
+    },
+    {
+      "id": "ped002",
+      "cliente": "cli007",
+      "fechaPedido": "2025-10-12",
+      "senia": 4,
+      "estado": "Cancelado",
+      "productos": [
+        {
+          "productoId": "prod001",
+          "cantidad": 3
+        }
+      ]
+    },
+    {
+      "id": "ped003",
+      "cliente": "cli003",
+      "fechaPedido": "2025-11-02",
+      "senia": 100,
+      "estado": "Entregado",
+      "productos": [
+        {
+          "productoId": "prod001",
+          "cantidad": 10
+        }
+      ]
+    },
+    {
+      "id": "ped004",
+      "cliente": "cli007",
+      "fechaPedido": "2025-11-02",
+      "senia": 500,
+      "estado": "Entregado",
+      "productos": [
+        {
+          "productoId": "prod001",
+          "cantidad": 1
+        }
+      ]
+    }
+  ],
+  "ventas": [],
+  "productos": [
+    {
+      "id": "prod001",
+      "idtipoDeProducto": "tp002",
+      "idtalle": "t002",
+      "idcolor": "c001",
+      "idcolegio": "col001",
+      "idtipoDeTela": "tt001",
+      "cantidadEnStock": 3,
+      "precioUnitario": 4500
+    },
+    {
+      "id": "prod002",
+      "idtipoDeProducto": "tp002",
+      "idtalle": "t002",
+      "idcolor": "c002",
+      "idcolegio": "col002",
+      "idtipoDeTela": "tt002",
+      "cantidadEnStock": 3,
+      "precioUnitario": 3900
+    },
+    {
+      "id": "prod003",
+      "idtipoDeProducto": "tp003",
+      "idtalle": "t003",
+      "idcolor": "c003",
+      "idcolegio": "col001",
+      "idtipoDeTela": "tt001",
+      "cantidadEnStock": 3,
+      "precioUnitario": 5100
+    },
+    {
+      "id": "prod004",
+      "idtipoDeProducto": "tp002",
+      "idtalle": "t001",
+      "idcolor": "c003",
+      "idcolegio": "col002",
+      "idtipoDeTela": "tt001",
+      "cantidadEnStock": 28,
+      "precioUnitario": 300
+    }
+  ],
+  "tiposDeProducto": [
+    {
+      "id": "tp001",
+      "nombre": "Chomba"
+    },
+    {
+      "id": "tp002",
+      "nombre": "Pantalón"
+    },
+    {
+      "id": "tp003",
+      "nombre": "Campera"
+    }
+  ],
+  "talles": [
+    {
+      "id": "t001",
+      "nombre": "S"
+    },
+    {
+      "id": "t002",
+      "nombre": "M"
+    },
+    {
+      "id": "t003",
+      "nombre": "L"
+    }
+  ],
+  "colores": [
+    {
+      "id": "c001",
+      "nombre": "Azul Marino"
+    },
+    {
+      "id": "c002",
+      "nombre": "Gris"
+    },
+    {
+      "id": "c003",
+      "nombre": "Negro"
+    }
+  ],
+  "colegios": [
+    {
+      "id": "col001",
+      "nombre": "Escuela Nº 5"
+    },
+    {
+      "id": "col002",
+      "nombre": "Instituto San José"
+    }
+  ],
+  "tiposDeTela": [
+    {
+      "id": "tt001",
+      "nombre": "Algodón"
+    },
+    {
+      "id": "tt002",
+      "nombre": "Poliéster"
+    }
+  ],
+  "estados": [
+    {
+      "id": "Reservado"
+    },
+    {
+      "id": "Entregado"
+    },
+    {
+      "id": "Cancelado"
+    }
+  ]
+}
